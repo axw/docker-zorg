@@ -12,3 +12,6 @@ Instructions
 5. Build Docker image: "docker build -t zorg ."
 6. Run the image: "docker run -d -p 8010:8010 -p 22 zorg"
 
+You should now be able to test builders by navigating to the builders
+and forcing builds, or waiting for the poller to detect source changes.
+
